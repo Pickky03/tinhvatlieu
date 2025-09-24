@@ -79,15 +79,15 @@ npm start
 Create a `.env` file in the root directory with the following variables:
 
 ```env
-PORT=3000
+PORT=5000
 MONGO_URI=mongodb://localhost:27017/tndgranite
 JWT_SECRET=your_jwt_secret_key_here
-JWT_EXPIRE=7d
+JWT_EXPIRE=1d
 ```
 
 ## 💻 Usage
 
-The API will be running on `http://localhost:3000` (or your specified PORT).
+The API will be running on `http://localhost:5000` (or your specified PORT).
 
 You can test the API using tools like:
 
